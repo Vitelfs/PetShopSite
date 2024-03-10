@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/sobre.css">
+    <link rel="shortcut icon" href="../images/logo_do_vitel2.png" type="image/x-icon">
+    <title>PetLife</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="nav-logo">
+                <span id="lateral-nav-bar-icon" onclick="openNav()">&#9776;</span>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" id="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#" class="nav-bar-op">
+                        <p>Home</p>
+                    </a>
+                    <a href="#" class="nav-bar-op">
+                       <p>Sobre</p>
+                    </a>
+                    <a href="#" class="nav-bar-op">
+                        <p>Serviços</p>
+                    </a>
+                    <a href="contato.html" class="nav-bar-op">
+                        <p>Contatos</p>
+                    </a>
+                </div>
+            </div>
+            <div class="logo"><img src="../images/logo_do_vitel2.png" alt="petLife-logo" id="header-pic"></div>
+            <form id="form" onsubmit="return search()"> 
+                <input type="search" id="query" name="q" placeholder="O que você deseja?" class="search-box-input" >
+            </form> 
+            <nav>
+                <a href="../../index.html" class="nav-content">Home</a>
+                <a href="sobre.html" class="nav-content">Sobre</a>
+                <a href="#" class="nav-content">Produtos</a>
+                <a href="#" class="nav-content">Serviços</a>
+                <a href="contato.html" class="nav-content">Contato</a>
+            </nav>
+        </div>
+    </header>
+    <section class="about-us">
+        <h1>
+            <button id="left-btn" class="btn" onclick="slideBefore()">
+                <img src="../images/right_arrow.png" id="left-btn-pic" class="btn-pic"></button>Sobre a PET🐾LIFE
+            <button id="right-btn" class="btn" onclick="slideNext()"><img src="../images/left_arrow.png" id="right-btn-pic" class="btn-pic"></button>
+        </h1>
+        <ul class="carousel-about">
+            <li id="carousel-about-item">
+                <h2>PET LIFE</h2>
+                <p>
+                O Refúgio dos Amigos de Quatro Patas<br>
+                Em um cantinho aconchegante da cidade, em meados de 2016, nasceu a Pet Life, uma petshop que rapidamente se tornou o refúgio dos amigos de quatro patas e seus tutores. Com uma equipe apaixonada por animais e um compromisso inabalável com o bem-estar dos peludos, a Pet Life conquistou o coração da comunidade local.
+                </p>
+                <div class="img-div">
+                    <img src="../images/easset_upload_file66293_816672_e.jpg" id="img" alt="">
+                </div>
+            </li>
+            <li id="carousel-about-item">
+                <h2>Nossos Funcionários Incríveis</h2>
+                <p>
+                Maria, a Encantadora de Cães<br>
+                Maria, nossa tosadora e banhista, tem mãos habilidosas e um coração ainda maior. Ela transforma os pelos em verdadeiras obras de arte, e os cãezinhos saem do seu cuidado com um brilho nos olhos e um balançar de rabo que não tem preço. Maria conhece cada cliente canino pelo nome e sabe exatamente como acalmá-los durante o banho ou a tosa.
+                </p>
+                <div class="img-div">
+                    <img src="../images/blog-5-passos-para-se-tornar-o-melhor-médico-veterinário.jpg" id="img" alt="">
+                </div>
+            </li>
+            <li id="carousel-about-item">
+                <h2>Nossos Funcionários Incríveis</h2>
+                <p>
+                Pedro, o Gerente com Paixão<br>
+                Pedro é o nosso gerente e o coração da Pet Life. Ele fundou a loja com a visão de criar um espaço onde os pets fossem tratados com carinho e respeito. Sua dedicação incansável e sua habilidade em unir a equipe fazem da Pet Life um lugar especial. Ele conhece cada cliente pelo nome e está sempre disposto a ouvir suas histórias e preocupações.
+                </p>
+                <div class="img-div">
+                    <img src="../images/servicos-veterinarios-mais-procurados-capa-blogpost.jpg" id="img" alt="">
+                </div>
+            </li>
+            <li id="carousel-about-item">
+                <h2>Nossos Funcionários Incríveis</h2>
+                <p>
+                João, o Conselheiro Pet<br>
+                João é o nosso vendedor e conselheiro pet. Ele conhece cada produto da loja como a palma da mão e sempre encontra a melhor ração, o brinquedo mais divertido ou o acessório mais estiloso para cada peludo. Sua paixão por animais é contagiante, e os tutores confiam plenamente em suas recomendações.
+                </p>
+                <div class="img-div">
+                    <img src="../images/especialidades-veterinarias-1.jpg" id="img" alt="">
+                </div>
+            </li>
+            <li id="carousel-about-item">
+                <h2>Nossos Funcionários Incríveis</h2>
+                <p>
+                Dra. Carla, a Veterinária Compassiva<br>
+                Dra. Carla, nossa médica veterinária, é uma verdadeira amiga dos animais. Ela não apenas cuida das questões de saúde, mas também oferece apoio emocional aos tutores. Seu consultório é um espaço onde histórias são compartilhadas, lágrimas são enxugadas e abraços são dados. Ela se preocupa com cada paciente como se fosse seu próprio pet.
+                </p>
+                <div class="img-div">
+                    <img src="../images/original-7ecc728ed13aa83e8562b4f0044beffd-1024x682.jpeg" id="img" alt="">
+                </div>
+            </li>
+            <li id="carousel-about-item">
+                <h2>A História da Pet Life</h2>
+                <p>
+                Em uma tarde ensolarada de 2016,<br>
+                Pedro abriu as portas da Pet Life com um sorriso no rosto e um latido de boas-vindas. Os primeiros clientes foram os vizinhos curiosos e seus fiéis companheiros. A loja era pequena, mas o amor pelos animais era imenso.
+                Com o passar dos anos, a Pet Life cresceu. Novos funcionários se juntaram à equipe, e o espaço foi ampliado para acomodar mais produtos e serviços. A comunidade abraçou a loja, e os tutores passaram a considerá-la uma extensão de suas casas.
+                Hoje, em 2024, a Pet Life continua a ser o refúgio dos amigos peludos. Os funcionários, com seus sorrisos e abraços, fazem com que cada visita seja especial.
+                </p>
+                <div class="img-div">
+                    <img src="../images/como-escolher-melhor-ponto-petshop.jpg" id="img" alt="">
+                </div>
+            </li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <div class="navegation">
+            <div><p class="footer-title">NAVEGAR</p></div>
+            <div class="item"><p class="obj">Home</p></div>
+            <div class="item"><p class="obj">Sobre</p></div>
+            <div class="item"><p class="obj">Produtos</p></div>
+        </div>
+        <div class="contacts">
+            <div><p class="footer-title">CONTATO</p></div>
+            <div class="item"><img src="../images/instagram.png" alt="" class="icon-footer"><a href="#" class="obj" target="_blank">Instagram</a></div>
+            <div class="item"><img src="../images/gmail.png" alt="" class="icon-footer"><a href="mailto:victorrfs@gmail.com" class="obj">E-mail</a></div>
+            <div class="item"><img src="../images/whatsapp.png" alt="" class="icon-footer"><a href="#" class="obj" target="_blank">Whatsapp</a></div>   
+        </div>
+        <div class="services">
+            <div><p class="footer-title">Serviços</p></div>
+            <div class="item"><p class="obj">Cachorro</p></div>
+            <div class="item"><p class="obj">Gato</p></div>
+            <div class="item"><p class="obj">Outros animais</p></div>
+        </div>
+        <div class="help">
+            <div><p class="footer-title">Precisa de ajuda?</p></div>
+            <div class="item"><p class="obj">Central de Atendimento</p></div>
+        </div>
+        <div class="credits">
+            <p id="credits-text">&copy; 2024 PetLife. Todos os direitos reservados.</p>
+        </div>
+</footer>
+<script src="../script/sobre.js"></script>
+</body>
+</html>
