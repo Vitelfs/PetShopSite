@@ -362,7 +362,7 @@ input[type="search"]::-ms-reveal {
 .footer{
     background-color: #f3dacf;
     display: flex;
-    gap: 20%;
+    gap: 10%;
     flex-wrap: wrap;
     justify-content: center;
     height: 170px;
