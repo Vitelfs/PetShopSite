@@ -1,0 +1,192 @@
+.shopping-cart-section{
+    width: 100%;
+    margin-top: 90px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 170px;
+}
+.shopping-container{
+    width: 90%;
+    gap: 5%;
+    height: 100%;
+    display: flex;
+}
+.container-left{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.shopping-title{
+    color: #f47e81;
+    font-size: 26px;
+    text-align: left;
+    width: 100%;
+}
+.recurring-purchase{
+    width: 100%;
+    margin-top: 20px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+#refresh-ico{
+    width: 20px;
+}
+.refresh{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: #f47e81;
+    font-size: 15px;
+    gap: 10px;
+    width: fit-content;
+}
+.refresh-txt{
+    color: #868789;
+    width: fit-content;
+    justify-self: right;
+    font-size: 12px;
+}
+.shopping-products{
+    display: flex;
+    margin-top: 25px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.img-div{
+    width: 12.5%;
+    display: flex;
+    justify-content: left;
+}
+#product-img{
+    width: 60px;
+}
+#product-name{
+    font-size: 13px;
+    color:#868789;
+    width: 35%;
+}
+#product-price{
+    font-size: 16px;
+    color: #f47e81;
+}
+#quantidade{
+    font-size: 15px;
+    color: black;
+}
+.btn-shopping{
+    border-radius: 50%;
+    padding: 5px;
+}
+.btn-ico{
+    width: 20px;
+    height: 20px;
+}
+#trash-can{
+    width: 35px;
+    padding-right: 15px;
+}
+.add-remove{
+    display: flex;
+    gap: 10px;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+.container-right{
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.search-cep h1{
+    font-size: 22px;
+    color: #f47e81;
+    width: 100%;
+}
+
+.search input[type="text"] {
+    padding: 10px; 
+    font-size: 16px;
+    width: 250px;
+    border: 2px solid #ccc; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    margin-bottom: 0;
+}
+.search button {
+    padding: 10px 15px; 
+    margin-top: 10px;
+    background-color: #f47e81;
+    font-size: 16px;
+    width: 80px;
+    color: white; 
+    border: none;
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+}
+#endereco{
+    margin-top: 8px;
+    font-size: 12px;
+    color: black;
+    width: 250px;
+}
+.end-purchase{
+    width: 70%;
+}
+#resume{
+    font-size: 18px;
+    color: #f47e81;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+.end-value{
+    display: flex;
+    justify-content: space-between;
+}
+.end-value p{
+    font-size: 13px;
+    color: black;
+}
+.end-discount{
+    display: flex;
+    justify-content: space-between;
+}
+.end-discount p{
+    margin-top: 3px;
+    font-size: 13px;
+    color: black;
+}
+.end-discount p:last-child{
+    font-size: 13px;
+    color: rgb(7, 223, 0);
+}
+.Total{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.Total{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: underline;
+}
+.button-div{
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    justify-content: right;
+}
+#btn{
+    background: #f47e81;
+    font-size: 12px;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
