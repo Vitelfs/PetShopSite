@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/logo_do_vitel2.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/carrinho.css">
+    <title>PetLife</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="nav-logo">
+                <span id="lateral-nav-bar-icon" onclick="openNav()">&#9776;</span>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" id="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="../../index.html" class="nav-bar-op">
+                        <p>Home</p>
+                    </a>
+                    <a href="sobre.html" class="nav-bar-op">
+                       <p>Sobre</p>
+                    </a>
+                    <a href="#" class="nav-bar-op">
+                        <p>Serviços</p>
+                    </a>
+                    <a href="src/pages/contato.html" class="nav-bar-op">
+                        <p>Contatos</p>
+                    </a>
+                </div>
+            </div>
+            <div class="logo"><a href="../../index.html"><img src="../images/logo_do_vitel2.png" alt="petLife-logo" id="header-pic"></a></div>
+            <form id="form" onsubmit="return search()"> 
+                <input type="search" id="query" name="q" placeholder="O que você deseja?" class="search-box-input" >
+            </form> 
+            <nav>
+                <a href="../../index.html" class="nav-content">Home</a>
+                <a href="sobre.html" class="nav-content">Sobre</a>
+                <a href="#" class="nav-content">Produtos</a>
+                <a href="#" class="nav-content">Serviços</a>
+                <a href="#" class="nav-content">Contato</a>
+            </nav>
+        </div>
+    </header>
+    <section class="shopping-cart-section">
+        <div class="shopping-container">
+            <div class="container-left">
+                <h1 class="shopping-title">Meu carrinho</h1>
+                <div class="recurring-purchase">  
+                    <p class="refresh"><img src="../images/refresh.png" alt="" id="refresh-ico">Compre com recorrência</p>
+                    <p class="refresh-txt">Escolha a freqûencia de entrega dos produtos e economize nessa compra!</p>
+                    <p class="refresh-txt">Ganhe 10% de desconto sempre!</p>
+                </div>
+                <div class="shopping-products">
+                    <div class="img-div"><img src="../images/petiscos-palito.png" alt="" id="product-img"></div>
+                    <p id="product-name">Petiscos para Gatos Adultos Snacks Palitos Pet Sabor Peixe 30g</p>
+                    <div class="add-remove">
+                        <button class="btn-shopping"><img src="../images/minus-sign.png" alt="" class="btn-ico"></button>
+                        <p id="quantidade">1</p>
+                        <button class="btn-shopping"><img src="../images/plus.png" alt="" class="btn-ico"></button>
+                    </div>
+                    <p id="product-price">R$3,60</p>
+                    <img src="../images/trash.png" alt="" id="trash-can">
+                </div>
+            </div>
+            <div class="container-right">
+                <div class="search-cep">
+                    <h1>Qual o CEP?</h1>
+                    <div class="search">
+                        <input type="text" placeholder="Digite o cep" id="cepInput">
+                        <button onclick="buscarEndereco()" id="buscar">Buscar</button>
+                        <div id="endereco"></div>
+                    </div>
+                </div>
+                <div class="end-purchase">
+                    <p id="resume">Resumo do pedido</p>
+                    <div class="end-value">
+                        <p>Total dos produtos</p>
+                        <p>R$3,60</p>
+                    </div>
+                    <div class="end-discount">
+                        <p>Total do desconto</p>
+                        <p>- R$00,00</p>
+                    </div>
+                    <div class="Total">
+                        <p>Total</p>
+                        <p>R$3,60</p>
+                    </div>
+                    <div class="button-div"><button id="btn">Comprar agora</button></div>
+                </div>
+            </div>
+
+        </div>
+    </section> 
+    <footer class="footer">
+        <div class="navegation">
+            <div><p class="footer-title">NAVEGAR</p></div>
+            <div class="item"><p class="obj">Home</p></div>
+            <div class="item"><p class="obj">Sobre</p></div>
+            <div class="item"><p class="obj">Produtos</p></div>
+        </div>
+        <div class="contacts">
+            <div><p class="footer-title">CONTATO</p></div>
+            <div class="item"><img src="src/images/instagram.png" alt="" class="icon-footer"><a href="#" class="obj" target="_blank">Instagram</a></div>
+            <div class="item"><img src="src/images/gmail.png" alt="" class="icon-footer"><a href="mailto:victorrfs@gmail.com" class="obj">E-mail</a></div>
+            <div class="item"><img src="src/images/whatsapp.png" alt="" class="icon-footer"><a href="#" class="obj" target="_blank">Whatsapp</a></div>   
+        </div>
+        <div class="services">
+            <div><p class="footer-title">Serviços</p></div>
+            <div class="item"><p class="obj">Cachorro</p></div>
+            <div class="item"><p class="obj">Gato</p></div>
+            <div class="item"><p class="obj">Outros animais</p></div>
+        </div>
+        <div class="help">
+            <div><p class="footer-title">Precisa de ajuda?</p></div>
+            <div class="item"><p class="obj">Central de Atendimento</p></div>
+        </div>
+        <div class="credits">
+            <p id="credits-text">&copy; 2024 PetLife. Todos os direitos reservados.</p>
+        </div>
+</footer>
+    <script src="../script/carrinho.js"></script>
+</body>
+</html>
