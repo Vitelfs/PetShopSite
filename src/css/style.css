@@ -71,6 +71,24 @@ input[type="search"]::-ms-reveal {
 #query:focus {
     outline: none;
 }
+.shopping_cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#shopping-cart-ico{
+    width: 30px;
+}
+#shopping-cart-txt{
+    color: #f47e81;
+    font-size: large;
+    margin-left: 5px;
+}
+.shopping_cart:hover{
+    background-color: #fffdc5;
+    padding: 40px 0;
+    border-radius: 8px; 
+}
 .nav-content{
     font-size: large;
     color: #f47e81;
