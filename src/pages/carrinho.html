@@ -55,11 +55,11 @@
                     <div class="img-div"><img src="../images/petiscos-palito.png" alt="" id="product-img"></div>
                     <p id="product-name">Petiscos para Gatos Adultos Snacks Palitos Pet Sabor Peixe 30g</p>
                     <div class="add-remove">
-                        <button class="btn-shopping"><img src="../images/minus-sign.png" alt="" class="btn-ico"></button>
-                        <p id="quantidade">1</p>
-                        <button class="btn-shopping"><img src="../images/plus.png" alt="" class="btn-ico"></button>
+                        <button class="btn-shopping" onclick="removeItem()"><img src="../images/minus-sign.png" alt="" class="btn-ico"></button>
+                        <p id="quantidade"></p>
+                        <button class="btn-shopping" onclick="addItem()"><img src="../images/plus.png" alt="" class="btn-ico"></button>
                     </div>
-                    <p id="product-price">R$3,60</p>
+                    <p id="product-price"></p>
                     <img src="../images/trash.png" alt="" id="trash-can">
                 </div>
             </div>
@@ -76,15 +76,15 @@
                     <p id="resume">Resumo do pedido</p>
                     <div class="end-value">
                         <p>Total dos produtos</p>
-                        <p>R$3,60</p>
+                        <p id="total-price-nd"></p>
                     </div>
                     <div class="end-discount">
                         <p>Total do desconto</p>
-                        <p>- R$00,00</p>
+                        <p id="discount"></p>
                     </div>
                     <div class="Total">
                         <p>Total</p>
-                        <p>R$3,60</p>
+                        <p id="total-price-wd"></p>
                     </div>
                     <div class="button-div"><button id="btn">Comprar agora</button></div>
                 </div>
