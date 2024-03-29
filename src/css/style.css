@@ -295,9 +295,24 @@ input[type="search"]::-ms-reveal {
     align-items: center;
     justify-content: space-between;
 }
+.other-item-description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 #other-products-img-title{
     width: 70px;
     height: auto;
+}
+.buy-btn{
+    background-color: #f47e81;
+    color: white;
+    width: 90%;
+    font-size: 10px;
+    padding: 6px;
+    margin-top: 6px;
+    border-radius: 5px;
 }
 .other-products-title{
     font-size: 32px;
@@ -356,6 +371,7 @@ input[type="search"]::-ms-reveal {
 .price-rating{
     margin-top: 10px;
     display: flex;
+    width: 100%;
     justify-content: space-between;
 }
 .product-price{
@@ -530,6 +546,9 @@ input[type="search"]::-ms-reveal {
         align-items: center;
         justify-content: space-between;
     }
+    .shopping_cart{
+        display: none;
+    }
     #other-products-img-title{
         width: 40px;
         height: auto;
@@ -637,7 +656,7 @@ input[type="search"]::-ms-reveal {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 30px;
+        gap: 20px;
         background-color: #f47e81;
         border-right: 1.75px solid darkgrey;
         overflow-x: hidden;
