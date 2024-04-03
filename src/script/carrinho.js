@@ -1,4 +1,14 @@
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+  document.getElementById("content").classList.add("content-open");
+  document.getElementById("video-grid").classList.add("video-grid-open");
+}
 
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("content").classList.remove("content-open");
+  document.getElementById("video-grid").classList.remove("video-grid-open");
+}
 
 function buscarEndereco() {
     var cep = document.getElementById('cepInput').value;
@@ -21,9 +31,6 @@ function buscarEndereco() {
     })
     .catch(error => console.error('Erro:', error));
 }
-
-
-
 
 function displayCart() {
 
